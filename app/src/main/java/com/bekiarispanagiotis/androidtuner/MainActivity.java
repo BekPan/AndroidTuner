@@ -10,6 +10,7 @@ import android.annotation.SuppressLint;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         requestMicrophonePermission();
+
+        Button button = findViewById(R.id.button);
+        button.setOnClickListener(view -> openDialog());
 
         AudioDispatcher dispatcher = AudioDispatcherFactory.fromDefaultMicrophone(22050,1024,0);
 
@@ -264,6 +268,11 @@ public class MainActivity extends AppCompatActivity {
         if (!permissionRequest.isEmpty()){
             permissionResultLauncher.launch(permissionRequest.toArray(new String[0]));
         }
+    }
+
+    public void openDialog() {
+        InfoDialog infoDialog = new InfoDialog();
+        infoDialog.show(getSupportFragmentManager(), "Info Dialog");
     }
 
     public void onBackPressed() {
