@@ -2,4 +2,7 @@
     <string name="app_name">Android Tuner</string>
     <string name="pitch">pitch</string>
     <string name="note">note</string>
+    <string name="android_tuner">Android Tuner</string>
+    <string name="guitar_tune_indicator">Guitar Tune Indicator</string>
+    <string name="violin_tune_indicator">Violin Tune Indicator</string>
 </resources>
