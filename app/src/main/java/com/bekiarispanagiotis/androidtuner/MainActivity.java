@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 else if(pitchInHz >= 110 && pitchInHz < 116.54) {
                     //A2 Guitar string A
                     note.setText("A2");
-                    if(pitchInHz >= 110 && pitchInHz < 111 && switchTheInstrument.getText().toString().equals("Guitar")){
+                    if(pitchInHz >= 110.0 && pitchInHz < 111 && switchTheInstrument.getText().toString().equals("Guitar")){
                             guitarTune.setColorFilter(Color.GREEN);
                     }else guitarTune.setColorFilter(Color.TRANSPARENT);
                 }
@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
                 else if(pitchInHz >= 196 && pitchInHz < 207.65) {
                     //G3 Guitar string G & Violin string G
                     note.setText("G3");
-                    if(pitchInHz >= 196 && pitchInHz < 197){
+                    if(pitchInHz >= 196.0 && pitchInHz < 197){
                         if (switchTheInstrument.getText().toString().equals("Guitar")) {
                             guitarTune.setColorFilter(Color.GREEN);
                         }
@@ -228,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
                 else if(pitchInHz >= 440 && pitchInHz < 466.16) {
                     //A4 Violin string A
                     note.setText("A4");
-                    if(pitchInHz >= 440 && pitchInHz < 441 && switchTheInstrument.getText().toString().equals("Violin")){
+                    if(pitchInHz >= 440.0 && pitchInHz < 441 && switchTheInstrument.getText().toString().equals("Violin")){
                             violinTune.setColorFilter(Color.GREEN);
                     }else violinTune.setColorFilter(Color.TRANSPARENT);
                 }
