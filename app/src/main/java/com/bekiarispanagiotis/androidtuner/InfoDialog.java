@@ -17,7 +17,7 @@ public class InfoDialog extends AppCompatDialogFragment {
                 .setMessage("Bekiaris Panagiotis Android Tuner. \nUsing TarsosDSP library." +
                         "\nThis project was part of my thesis at former Computer Science & Engineering T.E.I. of Larisa." +
                         "\nDigital Systems University of Thessaly \nAll Rights Reserved")
-                .setPositiveButton("ok", (dialogInterface, i) -> {
+                .setPositiveButton("close", (dialogInterface, i) -> {
 
                 });
         return builder.create();
