@@ -4,5 +4,5 @@ The TarsosDSP library source code is available under the GPL license terms at Gi
 Digital Systems University of Thessaly All Rights Reserved<br>
 Screenshots:<br>
 Permission: https://drive.google.com/file/d/1LgOaHwf_vOIGRFWmV-iouSHvOA3ZEGch/view <br>
-UI: https://drive.google.com/file/d/1LkjjFC4eD9b3lqHo6qMe9xZk_DZigJaF/view 
+UI: https://drive.google.com/file/d/1LkjjFC4eD9b3lqHo6qMe9xZk_DZigJaF/view <br>
 Info: https://drive.google.com/file/d/1M0nHkilGPmk8mwyKMk-euZavZ0YU3syV/view
